@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+    <h1>Password Strength Checker</h1>
+
+    <input type="password" id="password" 
+           placeholder="Enter your password" 
+           onkeyup="checkPassword()">
+
+    <div class="strength-bar">
+        <div id="strength-fill"></div>
+    </div>
+
+    <p id="result"></p>
+    <ul id="suggestions"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
